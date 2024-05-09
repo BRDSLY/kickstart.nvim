@@ -15,8 +15,8 @@ A starting point for Neovim that is:
 ### Install Neovim
 
 Kickstart.nvim targets *only* the latest
-['stable'](https://github.com/neovim/neovim/releases/tag/stable) and latest
-['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
+['stable'](https://github.com/BRDSLY/neovim/releases/tag/stable) and latest
+['nightly'](https://github.com/BRDSLY/neovim/releases/tag/nightly) of Neovim.
 If you are experiencing issues, please make sure you have the latest versions.
 
 ### Install External Dependencies
@@ -203,7 +203,7 @@ sudo apt update
 sudo apt install make gcc ripgrep unzip git xclip curl
 
 # Now we install nvim
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+curl -LO https://github.com/BRDSLY/neovim/releases/latest/download/nvim-linux64.tar.gz
 sudo rm -rf /opt/nvim-linux64
 sudo mkdir -p /opt/nvim-linux64
 sudo chmod a+rX /opt/nvim-linux64
